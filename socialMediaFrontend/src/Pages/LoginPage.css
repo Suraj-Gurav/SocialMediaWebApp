@@ -1,0 +1,55 @@
+.loginPage{
+    background-color: rgb(227, 236, 239);
+    width: 100%;
+    height: 100vh;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+.box2{
+    border-radius: 10px;
+    background-color: #fff;
+    width: 400px;
+    padding:20px;
+    flex-direction: column;
+}
+
+input[type=email],input[type=password],input[type=submit],.box2>button{
+    padding:10px 5px;
+    width:100%;
+    margin:10px 0;
+    outline: none;
+    border: none;
+}
+input[type=email],input[type=password]{
+    border-bottom:1px solid black;
+}
+input[type=submit]{
+   background-color:rgb(87, 87, 193);
+   color: #fff;
+   border-radius: 10px;
+   font-weight: 600;
+   letter-spacing: 2px;
+}
+input[type=email]:focus,input[type=password]:focus{
+    border:1px solid green;
+    border-radius: 10px;
+}
+.box2>button{
+    border-radius: 10px;
+    background-color: rgb(13, 168, 13);
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;   
+}

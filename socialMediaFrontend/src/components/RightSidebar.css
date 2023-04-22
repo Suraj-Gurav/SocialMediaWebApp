@@ -1,0 +1,5 @@
+.rightSidebar{
+    width: 30%;
+    padding: 15px;
+    overflow-y: scroll;
+}

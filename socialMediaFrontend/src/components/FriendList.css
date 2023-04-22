@@ -1,0 +1,17 @@
+.frinedlist{
+    height:260px;
+}
+.online{
+    color: rgb(101, 239, 101);
+    position:absolute;
+    top:1px;
+    left:23px;
+   width: 22px;
+   height: 22px;
+}
+.list1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}

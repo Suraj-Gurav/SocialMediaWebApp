@@ -1,0 +1,5 @@
+.postArea{
+    width:44%;
+    padding: 10px;
+    overflow-y:scroll;
+}
